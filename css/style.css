@@ -659,12 +659,12 @@ url(../img/ideas-right.png);
 
  }
 
- .article_preview_text_container:before {
+ .article_preview:before {
   content: "";
   border: 10px solid transparent;	
   border-bottom: 10px solid #fbfaf8;
   position: absolute;
-  top: 217px;
+  top: 517px;
   left: 19px;
 
  }
@@ -676,6 +676,8 @@ url(../img/ideas-right.png);
   top: 217px;
   left: 19px;	
   border-bottom: 10px solid #362f2d;
-  
+
 }
+
+
  
