@@ -34,7 +34,7 @@
 }
 
 h1 {
-  font-family: 'Railway';
+  font-family: 'Raleway';
   color: #fff;
   font-size: 52px;
   font-weight: 400;
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Railway';
+  font-family: 'Raleway';
   color: #555;
   font-size: 30px;
   font-weight: 400;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Railway';
+  font-family: 'Raleway';
   font-size: 22px;
   font-weight: 400;
   color: #555; 
@@ -235,6 +235,7 @@ input[type="search"]:focus {
   font-size: 36px;
   margin: 0 auto;
   color: #fff;
+  text-align: center;
 
 }
 
@@ -243,6 +244,7 @@ input[type="search"]:focus {
   font-weight: 800;
   font-size: 56px;
   margin: 0 auto;
+  text-align: center;
 
 }
 
@@ -252,6 +254,7 @@ input[type="search"]:focus {
   font-size: 16px;
   margin-bottom: 52px;
   color: #fff;
+  text-align: center;
 
 }
 
@@ -862,6 +865,7 @@ top:1px;
   
 .mobile_devices_list {
   margin-left: 200px;
+  padding: 0;
 }  
 
 .mobile_devices_list_item {
@@ -876,22 +880,23 @@ top:1px;
 
 .mobile_devices_list_item::before {
   content: '';
-  width: 25px;
-  height: 25px;
+  width: 21px;
+  height: 21px;
   display: inline-block;  
   background-image: url(../img/arrow_pointer.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 5px;
   left: -35px;
+  transform-origin: 50% 50% 0;
   transition: ease;
 
 }
 
 .mobile_devices_list_item:hover:before {
-  transform: rotate(45deg);
+  transform: rotate(360deg);
   transition: 0.5s;
-  left: -33px;
+  
 
 }
 
@@ -1006,11 +1011,12 @@ top:1px;
 
 }
 
-.posts_texts {
+.posts_text {
   color: #8c8c8c;
   font-family: "Montserrat";
   font-size: 16px;
   font-weight: 300;
+  margin-bottom: 25px;
 
 }
 
@@ -1039,7 +1045,7 @@ top:1px;
   margin-bottom: 15px;
 }
 
-.preview_text {
+.posts_preview_text {
   text-align: left;
   color: #8c8c8c;
   font-family: Montserrat;
@@ -1137,7 +1143,7 @@ top:1px;
 
 }
 
-.posts_preview:hover .preview_title {
+.posts_preview:hover .posts_preview_title {
   color: #a5937f;
 
 }
