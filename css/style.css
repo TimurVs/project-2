@@ -1375,3 +1375,14 @@ margin: 20px;
 
  } 
 
+ @media screen and (max-width: 1200px) {
+
+  .body_container {
+    width: 1140px;
+    margin: 0 auto;
+
+  }
+  
+  
+}
+
